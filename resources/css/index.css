@@ -4,15 +4,57 @@
 }
 
 * {
-    margin: 0px 0px;
+    margin: 0;
 }
 
 body {
     font-family: IndieFlower, cursive;
+    background-image: url("../images/pastel-ombre-background-pink-purple_53876-120750.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+article {
+    border: 1px solid black;
+    border-radius: 0.5em;
+    margin-bottom: 2em;
+    margin: auto 0.5em 2em;
+    padding: 0 1em 1em;
+    background-color: hwb(147 11% 55% / 0.164);
 }
 
 h1 {
     text-align: center;
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+nav {
+    position: fixed;
+    margin: 0 0 0 0;
+}
+
+nav ul {
+    position: relative;
+    text-align: left;
+}
+
+nav li {
+    display: inline;
+    border: 1px solid blueviolet;
+    border-radius: 0.2em;
+    background-color: aqua;
+    padding: 0.2em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 table {
@@ -43,4 +85,19 @@ td {
     font-family: monospace;
     background-color:chartreuse;
     color:darkslategray;
+}
+
+pre {
+    border: 2px solid black;
+    border-radius: 0.5em;
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    padding: 0.5em;
+}
+
+div.example {
+    width: 75%;
+    position: relative;
+    margin: 0em auto;
 }

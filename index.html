@@ -8,7 +8,15 @@
     <title>Cheatsheet</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#tables" target="_self">Tables</a></li>
+            <li><a href="#lists" target="_self">Lists</a></li>
+        </ul>
+    </nav>
     <h1>HTML/CSS Cheatsheet</h1>
+    <article id="#tables">
+    <h2>Tables</h2>
     <table>
         <thead>
             <tr>
@@ -22,6 +30,16 @@
                 <td>Table</td>
                 <td class="code">&lt;table&gt&lt;/table&gt</td>
                 <td>Create a table</td>
+            </tr>
+            <tr>
+                <td>tr</td>
+                <td class="code">&lt;tr&gt&lt;/tr&gt</td>
+                <td>Create a table row</td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td class="code">&lt;td&gt&lt;/td&gt</td>
+                <td>Create a table cell/data</td>
             </tr>
             <tr>
                 <td>Thead</td>
@@ -40,5 +58,64 @@
             </tr>
         </tbody>    
     </table>
+    <div class="example">
+        <h3>Table example</h3>
+        <pre class="code">
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Tag or attribute name&lt;/td&gt;
+            &lt;td&gt;Actual formatted tag&lt;/td&gt;
+            &lt;td&gt;Description&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Table&lt;/td&gt;
+            &lt;td class=&quot;code&quot;&gt;&amp;lt;table&amp;gt&amp;lt;/table&amp;gt&lt;/td&gt;
+            &lt;td&gt;Create a table&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;    
+&lt;/table&gt;</pre>
+    </div>
+    </article>
+    <article id="lists">
+    <h2>Lists</h2>
+    <table>
+        <thead>
+            <tr>
+                <td>Tag or attribute name</td>
+                <td>Actual formatted tag</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Unordered list</td>
+                <td class="code">&lt;ul&gt&lt;/ul&gt</td>
+                <td>Create an unordered list</td>
+            </tr>
+            <tr>
+                <td>Ordered list</td>
+                <td class="code">&lt;ol&gt&lt;/ol&gt</td>
+                <td>Create an ordered list</td>
+            </tr>
+            <tr>
+                <td>List item</td>
+                <td class="code">&lt;li&gt&lt;/li&gt</td>
+                <td>Create a list item</td>
+            </tr>
+        </tbody>    
+    </table>
+    <div class="example">
+        <h3>List example</h3>
+        <pre class="code">
+&lt;ol&gt;
+    &lt;li&gt;Coffee&lt;/li&gt;
+    &lt;li&gt;Tea&lt;/li&gt;
+    &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ol&gt;</pre>
+    </div>
+    </article>
 </body>
 </html>
