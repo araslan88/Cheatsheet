@@ -1,0 +1,46 @@
+@font-face {
+    font-family: IndieFlower;
+    src: url("../fonts/IndieFlower-Regular.ttf");
+}
+
+* {
+    margin: 0px 0px;
+}
+
+body {
+    font-family: IndieFlower, cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    font-size: larger;
+}
+
+table, td {
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+thead {
+    font-weight: bold;
+}
+
+thead td {
+    background-color: aquamarine;
+    border-width: 2px;
+}
+
+td {
+    background-color: lavender;
+    padding: 0px 0.5em;
+}
+
+.code {
+    font-family: monospace;
+    background-color:chartreuse;
+    color:darkslategray;
+}
